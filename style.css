@@ -331,6 +331,14 @@ section {
   position: relative;
 }
 
+.exp-details-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 equal columns instead of 3 */
+  gap: 20px;
+  max-width: 1200px; /* Optional: constrain width */
+  margin: 0 auto;
+}
+
 .experience-sub-title {
   color: rgb(85, 85, 85);
   font-weight: 600;
@@ -339,9 +347,10 @@ section {
 }
 
 .experience-details-container {
-  display: flex;
+  display: grid;
   justify-content: center;
-  flex-direction: column;
+  grid-auto-flow: column;
+  /*flex-direction: row;*/
 }
 
 .article-container {
@@ -385,6 +394,12 @@ article .icon {
   border-radius: 2rem;
   width: 90%;
   height: 90%;
+}
+
+.project-about-containers {
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
 .project-title {
