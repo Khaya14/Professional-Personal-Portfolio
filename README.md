@@ -88,7 +88,7 @@ cd professional-personal-portfolio
 2. Right-click on `index.html`
 3. Select "Open with Live Server"
 
-## 📦 Deployment
+## Deployment
 
 This project is deployed on Vercel with automatic deployments from the main branch.
 
