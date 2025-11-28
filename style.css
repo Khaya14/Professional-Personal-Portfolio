@@ -10,6 +10,10 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+h3 {
+  align-items: right;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -317,6 +321,10 @@ section {
   margin: auto 0;
 }
 
+.text-container {
+  font-size: smaller;
+}
+
 /* EXPERIENCE SECTION */
 
 #experience {
@@ -345,8 +353,14 @@ section {
   justify-content: space-around;
 }
 
-article {
+.cloud-article-container {
   display: flex;
+  justify-content: center;
+  place-items: center;
+}
+
+article {
+  display: inline;
   width: 10rem;
   justify-content: space-around;
   gap: 0.5rem;
@@ -381,6 +395,10 @@ article .icon {
 .project-btn {
   color: black;
   border-color: rgb(163, 163, 163);
+}
+
+.project-text {
+  font-size: smaller;
 }
 
 /* CONTACT */
