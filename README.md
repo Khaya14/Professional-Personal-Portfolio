@@ -4,7 +4,7 @@ A responsive personal portfolio website showcasing my cloud engineering projects
 
 ## Live Demo
 
-[View Portfolio](https://khaya-professional-portfolio.vercel.app/)
+[View Portfolio](https://khaya-portfolio.vercel.app/)
 
 ## About
 
